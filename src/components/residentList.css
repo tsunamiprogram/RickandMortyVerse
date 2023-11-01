@@ -4,17 +4,17 @@
   flex-wrap: wrap;
   gap: 25px;
 }
-.ul-pages{
+.ul-pages {
   list-style: none;
   display: flex;
   flex: wrap;
   justify-content: center;
   gap: 8px;
 }
-.button-pagination{
+.button-pagination {
   border-radius: 25%;
   min-width: 30px;
 }
-.button-pagination.active{
+.button-pagination.active {
   background-color: goldenrod;
 }
