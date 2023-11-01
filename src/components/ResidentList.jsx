@@ -23,7 +23,7 @@ const ResidentList = ({ residents }) => {
         {
           pages.map((page) => (
             <li key={page}>
-              <button className="button-pagination " onClick={() => setCurrentPage(page)}>
+              <button className={`button-pagination ${page === currentPage && "active"}`} onClick={() => setCurrentPage(page)}>
                 {page}
               </button>
             </li>

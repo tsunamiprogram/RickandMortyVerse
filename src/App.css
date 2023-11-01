@@ -6,26 +6,5 @@
   overflow-x: hidden;
   overflow-y: scroll;
   z-index: -1;
+  background: url(./public/img/Frame432night.png) top no-repeat ;
 }
-.main_container {
-  background-image: url(./public/img/Frame432night.png),
-    url(/public/img/fondo-o-textura_1194-301824.jpg),
-    url(./public/img/RickyMorty-Desktopversionnight.png);
-}
-
-/* .main-image1 {
-  width: 100%;
-  height: 33%;
-} */
-
-/* .main-gradient {
-  order: 2;
-  width: 100%;
-  height: 33%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 13%, black 100%);
-}
-.main-image2 {
-  order: 3;
-  width: 100%;
-  height: 33%;
-} */
