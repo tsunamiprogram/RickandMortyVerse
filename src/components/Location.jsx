@@ -18,7 +18,7 @@ const Location = ({ location, setLocation }) => {
       <header className="header_location">
         <img
           className="header_img"
-          src="../public/img/nombreoriginal.png "
+          src="./public/img/nombreoriginal.png"
           alt=""
         />
         <form onSubmit={handleSubmit} className="button_container">
